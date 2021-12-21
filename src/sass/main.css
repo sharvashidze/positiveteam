@@ -57,3 +57,213 @@ img {
     width: 1280px;
   }
 }
+
+.products {
+  padding-top: 121px;
+}
+
+@media screen and (min-width: 768px) {
+  .products {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .products {
+    padding-top: 60px;
+  }
+}
+
+.products__about {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Titan One, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #ffa5ba;
+  margin-bottom: 15px;
+}
+
+.products__title {
+  margin-bottom: 150px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Titan One, sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #d41443;
+}
+
+@media screen and (min-width: 768px) {
+  .products__title {
+    margin-bottom: 170px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .products__title {
+    padding-top: 0px;
+  }
+}
+
+.products__list {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .products__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .products__list {
+    margin-right: -10px;
+  }
+}
+
+.products__item {
+  display: block;
+  padding: 146px 0 41px;
+  margin-bottom: 230px;
+  max-width: 350px;
+  height: auto;
+  position: relative;
+  border-radius: 24px;
+  background-color: #ffb8ca;
+}
+
+@media screen and (min-width: 768px) {
+  .products__item {
+    width: 220px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .products__item {
+    width: 330px;
+    margin-right: 10px;
+  }
+}
+
+.first {
+  background-color: #ffb8ca;
+}
+
+.second {
+  background-color: #f0d1a5;
+}
+
+.third {
+  background-color: #c2e297;
+}
+
+.first::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -50%;
+  width: 249px;
+  transform: translate(12%, 0);
+  height: 252px;
+  background-image: url("../images/Productsmobilka1@1x.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .first::before {
+    transform: translate(-5%, 0);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .first::before {
+    transform: translate(12%, 0);
+  }
+}
+
+.second::before {
+  content: '';
+  position: absolute;
+  left: auto;
+  top: -50%;
+  width: 100%;
+  transform: translate(12%, 0);
+  height: 252px;
+  background-image: url("../images/Productsmobilka2@1x.png");
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+  .second::before {
+    transform: translate(-5%, 0);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .second::before {
+    transform: translate(12%, 0);
+  }
+}
+
+.third::before {
+  content: '';
+  position: absolute;
+  left: auto;
+  top: -50%;
+  width: 100%;
+  transform: translate(12%, 0);
+  height: 252px;
+  background-image: url("../images/Productsmobilka3@1x.png");
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+  .third::before {
+    transform: translate(-5%, 0);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .third::before {
+    transform: translate(12%, 0);
+  }
+}
+
+.products__name {
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Titan One, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+
+.products__text {
+  padding: 0 30px;
+  text-align: center;
+  font-family: DM Sans, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.52;
+}
+
+.products__name::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 200%;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
