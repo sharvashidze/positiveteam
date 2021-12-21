@@ -1,0 +1,109 @@
+<header class="header">
+    <div class="header__section">
+        <nav class="header__nav">
+            <a href="/" class="header__logo"> <img src="./images/logo2.svg" /></a>
+            <ul class="header-menu">
+                <li class="header-menu__item">
+                    <a class="header-menu__link" href="/">Home</a>
+                </li>
+
+                <li class="header-menu__item">
+                    <a class="header-menu__link" href="/">About us</a>
+                </li>
+
+                <li class="header-menu__item">
+                    <a class="header-menu__link" href="/">How it’s made?</a>
+                </li>
+
+                <li class="header-menu__item">
+                    <a class="header-menu__link" href="/">Our products</a>
+                </li>
+
+                <li class="header-menu__item">
+                    <a class="header-menu__link" href="/">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <button type="button" class="mobile-menu js-open-menu" aria-label="Переключатель мобильного меню"
+            aria-expanded="false" aria-controls="mobile-menu">
+            <svg class="mobile-menu__icon" width="20px" height="12px">
+                <use href="./images/symbol-defs.svg#icontelmenu"></use>
+            </svg>
+        </button>
+        <button type="button" class="header__button button">Buy now</button>
+    </div>
+</header>
+
+<div class="menu-container js-menu-container" id="mobile-menu">
+    <div class="button-container">
+        <button type="button" class="mobile-menu js-close-menu" aria-label="Переключатель мобильного меню">
+            <svg class="mobile-menu__icon--close" width="20px" height="20px">
+                <use class="mobile-menu__icon--close" href="./images/symbol-defs.svg#iconmenuX" width="14px"
+                    height="14px">
+                </use>
+            </svg>
+        </button>
+    </div>
+    <ul class="gamburger-menu">
+        <li class="gamburger-menu__item">
+            <a class="gamburger-menu__link" href="/">Home</a>
+        </li>
+
+        <li class="gamburger-menu__item">
+            <a class="gamburger-menu__link" href="/">About us</a>
+        </li>
+
+        <li class="gamburger-menu__item">
+            <a class="gamburger-menu__link" href="/">How it’s made?</a>
+        </li>
+
+        <li class="gamburger-menu__item">
+            <a class="gamburger-menu__link" href="/">Our products</a>
+        </li>
+
+        <li class="gamburger-menu__item">
+            <a class="gamburger-menu__link" href="/">Contact</a>
+        </li>
+    </ul>
+</div>
+
+<section class="hero">
+    <div class="hero-container">
+        <h1 class="hero__title">
+            ice cream made with
+            <span class="hero__title--span">passion</span>
+        </h1>
+        <a class="hero__link" href="">Products</a>
+        <a class="hero__link hero__link--white" href="">How it’s made?</a>
+        <div class="hero__description">
+            <p class="hero__description--text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et
+            </p>
+            <div class="hero__description--arrow">
+                <svg class="hero__description--svg">
+                    <use class="hero__description--icon" href="./images/symbol-defs.svg#arrow-right2"></use>
+                </svg>
+            </div>
+        </div>
+
+
+        <div class="circle"></div>
+        <img class="ice-cream" src="./images/photoheromobilka1x.png" alt="" />
+        <img class="grafin" src="./images/grafindecstop@1x.png" alt="" />
+        <img class="girl" src="./images/girldecstop@1x.png" alt="" />
+
+        <div class="object">
+            <div class="object__first">
+                <p class="object__number">16</p>
+                <p class="object__descript">cafes</p>
+                <div class="object__ellipse"></div>
+            </div>
+            <div class="object__second">
+                <p class="object__number object__number--second">23</p>
+                <p class="object__descript">food trucks</p>
+                <div class="object__ellipse"></div>
+            </div>
+        </div>
+    </div>
+</section>
