@@ -114,8 +114,11 @@ img {
 
 @media screen and (min-width: 768px) {
   .products__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     margin-right: -20px;
   }
 }
@@ -169,7 +172,8 @@ img {
   left: 0;
   top: -50%;
   width: 249px;
-  transform: translate(12%, 0);
+  -webkit-transform: translate(12%, 0);
+          transform: translate(12%, 0);
   height: 252px;
   background-image: url("../images/Productsmobilka1@1x.png");
   background-repeat: no-repeat;
@@ -178,13 +182,15 @@ img {
 
 @media screen and (min-width: 768px) {
   .first::before {
-    transform: translate(-5%, 0);
+    -webkit-transform: translate(-5%, 0);
+            transform: translate(-5%, 0);
   }
 }
 
 @media screen and (min-width: 1280px) {
   .first::before {
-    transform: translate(12%, 0);
+    -webkit-transform: translate(12%, 0);
+            transform: translate(12%, 0);
   }
 }
 
@@ -194,7 +200,8 @@ img {
   left: auto;
   top: -50%;
   width: 100%;
-  transform: translate(12%, 0);
+  -webkit-transform: translate(12%, 0);
+          transform: translate(12%, 0);
   height: 252px;
   background-image: url("../images/Productsmobilka2@1x.png");
   background-repeat: no-repeat;
@@ -202,13 +209,15 @@ img {
 
 @media screen and (min-width: 768px) {
   .second::before {
-    transform: translate(-5%, 0);
+    -webkit-transform: translate(-5%, 0);
+            transform: translate(-5%, 0);
   }
 }
 
 @media screen and (min-width: 1280px) {
   .second::before {
-    transform: translate(12%, 0);
+    -webkit-transform: translate(12%, 0);
+            transform: translate(12%, 0);
   }
 }
 
@@ -218,7 +227,8 @@ img {
   left: auto;
   top: -50%;
   width: 100%;
-  transform: translate(12%, 0);
+  -webkit-transform: translate(12%, 0);
+          transform: translate(12%, 0);
   height: 252px;
   background-image: url("../images/Productsmobilka3@1x.png");
   background-repeat: no-repeat;
@@ -226,13 +236,15 @@ img {
 
 @media screen and (min-width: 768px) {
   .third::before {
-    transform: translate(-5%, 0);
+    -webkit-transform: translate(-5%, 0);
+            transform: translate(-5%, 0);
   }
 }
 
 @media screen and (min-width: 1280px) {
   .third::before {
-    transform: translate(12%, 0);
+    -webkit-transform: translate(12%, 0);
+            transform: translate(12%, 0);
   }
 }
 
@@ -267,3 +279,4 @@ img {
   border-radius: 50%;
   background-color: #ffffff;
 }
+/*# sourceMappingURL=main.css.map */
