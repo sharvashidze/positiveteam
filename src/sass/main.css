@@ -160,7 +160,11 @@ img {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
+
+    flex-wrap: wrap;
+
         flex-wrap: wrap;
+
     margin-right: -20px;
   }
 }
@@ -261,9 +265,13 @@ img {
   top: -50%;
   width: 249px;
   -webkit-transform: translate(12%, 0);
+
+  transform: translate(12%, 0);
+
           transform: translate(12%, 0);
+
   height: 252px;
-  background-image: url("../images/Productsmobilka1@1x.png");
+  background-image: url('../images/Productsmobilka1@1x.png');
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -271,14 +279,22 @@ img {
 @media screen and (min-width: 768px) {
   .first::before {
     -webkit-transform: translate(-5%, 0);
+
+    transform: translate(-5%, 0);
+
             transform: translate(-5%, 0);
+
   }
 }
 
 @media screen and (min-width: 1280px) {
   .first::before {
     -webkit-transform: translate(12%, 0);
+
+    transform: translate(12%, 0);
+
             transform: translate(12%, 0);
+
   }
 }
 
@@ -289,16 +305,24 @@ img {
   top: -50%;
   width: 100%;
   -webkit-transform: translate(12%, 0);
+
+  transform: translate(12%, 0);
+
           transform: translate(12%, 0);
+
   height: 252px;
-  background-image: url("../images/Productsmobilka2@1x.png");
+  background-image: url('../images/Productsmobilka2@1x.png');
   background-repeat: no-repeat;
 }
 
 @media screen and (min-width: 768px) {
   .second::before {
     -webkit-transform: translate(-5%, 0);
+
+    transform: translate(-5%, 0);
+
             transform: translate(-5%, 0);
+
 
   }
 }
@@ -370,7 +394,11 @@ img {
 
   .second::before {
     -webkit-transform: translate(12%, 0);
+
+    transform: translate(12%, 0);
+
             transform: translate(12%, 0);
+
   }
 }
 
@@ -381,23 +409,35 @@ img {
   top: -50%;
   width: 100%;
   -webkit-transform: translate(12%, 0);
+
+  transform: translate(12%, 0);
+
           transform: translate(12%, 0);
+
   height: 252px;
-  background-image: url("../images/Productsmobilka3@1x.png");
+  background-image: url('../images/Productsmobilka3@1x.png');
   background-repeat: no-repeat;
 }
 
 @media screen and (min-width: 768px) {
   .third::before {
     -webkit-transform: translate(-5%, 0);
+
+    transform: translate(-5%, 0);
+
             transform: translate(-5%, 0);
+
   }
 }
 
 @media screen and (min-width: 1280px) {
   .third::before {
     -webkit-transform: translate(12%, 0);
+
+    transform: translate(12%, 0);
+
             transform: translate(12%, 0);
+
   }
 }
 
