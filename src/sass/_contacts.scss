@@ -1,5 +1,6 @@
 .article-section {
-  background-color: #fff5f6;
+  position: relative;
+  background-color: $backgroundcontactscolor;
   width: auto;
 
   padding: 0 44px 113px 56px;
@@ -54,7 +55,7 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 186%;
-  color: #000000;
+  color: $textblackcolor;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -62,7 +63,7 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 186%;
-  color: #ffa5ba;
+  color: $textpinkcolor;
   margin-top: 0;
   margin-bottom: 10px;
 
@@ -70,7 +71,7 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 186%;
-    color: #ffa5ba;
+    color: $textpinkcolor;
 
     @media screen and (min-width: 1280px) {
       margin-bottom: 15px;
@@ -83,7 +84,7 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 150%;
-  color: #907e82;
+  color: $textgreycolor;
 
   @media screen and (min-width: 1280px) {
     margin-bottom: 15px;
@@ -98,10 +99,18 @@
 
   @media screen and (min-width: 768px) {
     display: flex;
-
     flex-direction: row;
     justify-content: center;
   }
+}
+
+.article-dop {
+  position: absolute;
+  top: -84px;
+}
+
+.article-dop__dop {
+  margin-top: 363px;
 }
 
 .article-section__site {
@@ -111,12 +120,12 @@
   box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   border-radius: 24px;
   margin-bottom: 20px;
-  background-color: #ffffff;
+  background-color: $textWhitecolor;
   padding: 40px 20px 43px 20px;
 
   @media screen and (min-width: 768px) {
     margin-right: 20px;
-    margin-bottom: 54px;
+    margin-bottom: 81px;
   }
 
   @media screen and (min-width: 1280px) {
@@ -128,13 +137,21 @@
 
   &:last-child {
     margin-right: 0;
+    margin-bottom: 54px;
+
+    @media screen and (min-width: 768px) {
+      margin-bottom: 81px;
+    }
+    @media screen and (min-width: 1280px) {
+      margin-bottom: 86px;
+    }
   }
 }
 
 .article-section__site--locations {
   width: 80px;
-  color: #ffffff;
-  background-color: #f0d1a5;
+  color: $textWhitecolor;
+  background-color: $productsLi2color;
   border-radius: 4px;
   margin-bottom: 25px;
   text-align: center;
@@ -150,8 +167,8 @@
 
 .article-section__site--locations-second {
   width: 130px;
-  color: #ffffff;
-  background-color: #c2e297;
+  color: $textWhitecolor;
+  background-color: $productsLi3color;
   border-radius: 4px;
   text-align: center;
   margin: 0 0 25px 0;
@@ -168,7 +185,7 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 150%;
-  color: #907e82;
+  color: $textgreycolor;
 }
 
 .article-section__list--link {
@@ -208,18 +225,47 @@
   @media screen and (min-width: 768px) {
     margin: 0 15px 0 0;
   }
+
+  @media screen and (min-width: 1280px) {
+    width: 198px;
+  }
 }
 
-.article-section__list--locations,
 .article-section__list--franchise {
-  background-color: #d41342;
-  color: #ffffff;
+  @media screen and (min-width: 1280px) {
+    width: 180px;
+  }
+}
+
+.article-section__list--locations {
+  background-color: $textredcolor;
+  color: $textWhitecolor;
+}
+
+.article-section__list--franchise {
+  background-color: $textWhitecolor;
+  color: $textredcolor;
+}
+
+.article-section__svg--element {
+  fill: #ffffff;
+}
+
+.article-section__svg {
+  fill: #ffffff;
 }
 
 .article-section__list--locations:hover,
 .article-section__list--locations:focus,
 .article-section__list--franchise:hover,
 .article-section__list--franchise:hover {
-  background-color: #ffffff;
-  color: #d41342;
+  background-color: #ecebeb;
+  color: $textredcolor;
+}
+
+.article-section__svg {
+  margin-left: 8px;
+  @media screen and (min-width: 768px) {
+    margin-left: 14px;
+  }
 }
