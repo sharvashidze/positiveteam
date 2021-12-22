@@ -33,5 +33,8 @@
             <path fill="#fea5bb" style="fill:var(--color1, #fea5bb)" d="M32.235 16c0 8.837-7.163 16-16 16s-16-7.163-16-16 7.163-16 16-16 16 7.163 16 16z"/>
             <path fill="#fff" style="fill:var(--color2, #fff)" d="m13.102 18.375-.318 4.169c.454 0 .651-.182.887-.401l2.13-1.9 4.414 3.017c.81.421 1.38.199 1.598-.695l2.898-12.673c.257-1.117-.433-1.554-1.222-1.28L6.457 14.698c-1.162.421-1.145 1.026-.198 1.3l4.355 1.264 10.115-5.907c.476-.294.909-.131.553.163L13.1 18.375z"/>
         </symbol>
+        <symbol id="icon-about" viewBox="0 0 26 32">
+        <path fill="none" stroke="#d41443" style="stroke:var(--color1, #d41443)" stroke-linejoin="round" stroke-linecap="round" stroke-width="6.4" d="M5.172 3.2 19.341 16 5.172 28.8"/>
+        </symbol>
     </defs>
 </svg>
