@@ -1,0 +1,277 @@
+.header {
+  position: relative;
+  z-index: 99;
+  width: 100%;
+  padding-top: 6px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 37px;
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__nav {
+    @media screen and (min-width: 1280px) {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+.header-menu {
+  margin-left: auto;
+  @media screen and (min-width: 320px) {
+    display: none;
+  }
+  @media screen and (min-width: 1280px) {
+    display: flex;
+    margin-left: 110px;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 35px;
+    }
+  }
+
+  &__link {
+    display: block;
+    color: $textWhitecolor;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.3;
+
+    &:hover {
+      color: $textredcolor;
+    }
+  }
+}
+
+.current-link {
+  color: $textredcolor;
+}
+
+.mobile-menu {
+  fill: $textredcolor;
+  border: none;
+  background: none;
+  @media screen and (min-width: 320px) {
+    margin-left: auto;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-left: 291px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    display: none;
+  }
+}
+
+.header__button {
+  width: 160px;
+  height: 44px;
+  border: none;
+  border-radius: 22px;
+
+  color: $textredcolor;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.3;
+
+  background-color: $textWhitecolor;
+
+  @media screen and (min-width: 320px) {
+    display: none;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: block;
+    margin-left: auto;
+  }
+}
+
+.header__button--svg {
+  width: 20px;
+  height: 20px;
+  fill: $textredcolor;
+
+  &--icon {
+    fill: $textredcolor;
+  }
+}
+
+.hero {
+  width: 100%;
+  position: absolute;
+  z-index: 98;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  background-color: $productsLi1color;
+
+  overflow: hidden;
+
+  @media screen and (min-width: 320px) {
+    padding-top: 193px;
+    padding-bottom: 160px;
+  }
+  @media screen and (min-width: 768px) {
+    padding-top: 102px;
+    padding-bottom: 34px;
+  }
+  @media screen and (min-width: 1280px) {
+    padding-top: 171px;
+    padding-bottom: 56px;
+  }
+}
+
+.hero-container {
+  position: relative;
+}
+
+.hero__title {
+  position: relative;
+  z-index: 97;
+  color: $textWhitecolor;
+  font-family: 'Titan One';
+  font-weight: normal;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  @media screen and (min-width: 320px) {
+    margin-bottom: 20px;
+    width: 218px;
+    font-size: 26px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 162px;
+    font-size: 22px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 25px;
+    width: 277px;
+    font-size: 38px;
+  }
+
+  &--span {
+    color: $textredcolor;
+    @media screen and (min-width: 320px) {
+      font-size: 46px;
+    }
+    @media screen and (min-width: 768px) {
+      font-size: 32px;
+    }
+    @media screen and (min-width: 1280px) {
+      font-size: 60px;
+    }
+  }
+}
+
+.hero__link {
+  position: relative;
+  z-index: 96;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 20px;
+
+  color: $textWhitecolor;
+  background-color: $textredcolor;
+
+  font-size: 8px;
+  line-height: 1.1;
+
+  @media screen and (min-width: 320px) {
+    width: 61px;
+    height: 24px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 102px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  &--white {
+    color: $textredcolor;
+    background-color: $textWhitecolor;
+    @media screen and (min-width: 320px) {
+      width: 82px;
+      margin-left: 8px;
+    }
+    @media screen and (min-width: 1280px) {
+      width: 138px;
+      margin-left: 15px;
+    }
+  }
+}
+
+.hero__description {
+  @media screen and (min-width: 320px) {
+    display: none;
+  }
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
+}
+
+.circle {
+  position: absolute;
+
+  z-index: 0;
+
+  border-radius: 50%;
+  background-color: #ffa5ba;
+
+  @media screen and (min-width: 320px) {
+    top: 83px;
+    left: 36px;
+    width: 346px;
+    height: 344px;
+  }
+  @media screen and (min-width: 768px) {
+    top: 31px;
+    left: 307px;
+    width: 324px;
+    height: 322px;
+  }
+  @media screen and (min-width: 1280px) {
+    top: 52px;
+    left: 475px;
+    width: 538px;
+    height: 538px;
+  }
+}
+
+.ice-cream {
+  position: absolute;
+  display: block;
+  bottom: 0;
+
+  @media screen and (min-width: 320px) {
+    left: 117px;
+    width: 171px;
+    height: 410px;
+  }
+}
+
+.grafin {
+  display: none;
+}
+
+.girl {
+  display: none;
+}
+
+.object {
+  display: none;
+}
+
+.menu-container {
+  display: none;
+}
