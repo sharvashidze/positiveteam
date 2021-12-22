@@ -1,10 +1,12 @@
 <header class="header">
-  <div class="header__section">
+  <div class="container header__container">
     <nav class="header__nav">
-      <a href="/" class="header__logo"></a>
+      <a href="/" class="header__logo">
+        <img src="./images/logo3.png" alt="logo">
+      </a>
       <ul class="header-menu">
         <li class="header-menu__item">
-          <a class="header-menu__link" href="/">Home</a>
+          <a class="header-menu__link current-link" href="/">Home</a>
         </li>
 
         <li class="header-menu__item">
@@ -24,34 +26,25 @@
         </li>
       </ul>
     </nav>
-    <button
-      type="button"
-      class="mobile-menu js-open-menu"
-      aria-label="Переключатель мобильного меню"
-      aria-expanded="false"
-      aria-controls="mobile-menu"
-    >
+    <button type="button" class="mobile-menu js-open-menu" aria-label="Переключатель мобильного меню"
+      aria-expanded="false" aria-controls="mobile-menu">
       <svg class="mobile-menu__icon" width="20px" height="12px">
         <use href="./images/symbol-defs.svg#icontelmenu"></use>
       </svg>
     </button>
-    <button type="button" class="header__button button">Buy now</button>
+    <button type="button" class="header__button button">Buy now
+      <svg class="header__button--svg">
+        <use class="header__button--icon" href="./images/symbol-defs.svg#icon-about"></use>
+      </svg>
+    </button>
   </div>
 </header>
 <div class="menu-container js-menu-container" id="mobile-menu">
   <div class="button-container">
-    <button
-      type="button"
-      class="mobile-menu js-close-menu"
-      aria-label="Переключатель мобильного меню"
-    >
+    <button type="button" class="mobile-menu js-close-menu" aria-label="Переключатель мобильного меню">
       <svg class="mobile-menu__icon--close" width="20px" height="20px">
-        <use
-          class="mobile-menu__icon--close"
-          href="./images/symbol-defs.svg#iconmenuX"
-          width="14px"
-          height="14px"
-        ></use>
+        <use class="mobile-menu__icon--close" href="./images/symbol-defs.svg#iconmenuX" width="14px" height="14px">
+        </use>
       </svg>
     </button>
   </div>
@@ -74,7 +67,7 @@
   </ul>
 </div>
 <section class="hero">
-  <div class="hero-container">
+  <div class="container">
     <h1 class="hero__title">
       ice cream made with
       <span class="hero__title--span">passion</span>
