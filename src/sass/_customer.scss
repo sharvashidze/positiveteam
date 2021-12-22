@@ -1,14 +1,14 @@
 .customer {
   position: relative;
-  padding-top: 154px;
-  padding-bottom: 170px;
+  padding-top: 80px;
+  padding-bottom: 86px;
 
   @media screen and (min-width: 768px) {
-    padding: 279px 54px 197px 54px;
+    padding: 121px 54px 119px 54px;
   }
 
   @media screen and (min-width: 1280px) {
-    padding: 382px 157px 234px 157px;
+    padding: 123px 157px 132px 157px;
   }
 }
 
@@ -69,12 +69,14 @@
   background-image: url('../images/home-dot.svg');
   background-size: cover;
   border-radius: unset;
+  background-position: center;
+  background-color: $textWhitecolor;
 }
 
 .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
+  width: 13px;
   height: 12px;
-  background-color: #d9d9d9;
+  color: #d9d9d9;
 }
 
 .customer__text {
