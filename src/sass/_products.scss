@@ -1,11 +1,13 @@
 .products {
-  padding-top: 121px;
-  @media screen and (min-width: 768px) {
-    padding-top: 50px;
+  padding-top: 500px;
+  padding-bottom: 70px;
+
+  /*  @media screen and (min-width: 768px) {
+    padding-top: 220px;
   }
   @media screen and (min-width: 1280px) {
-    padding-top: 60px;
-  }
+    padding-top: 230px;
+  } */
 }
 .products__about {
   text-align: center;
@@ -14,7 +16,7 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 1.15;
-  color: $textpinkcolor;
+  color: #ffa5ba;
   margin-bottom: 15px;
 }
 .products__title {
@@ -25,9 +27,9 @@
   font-size: 34px;
   font-weight: 400;
   line-height: 1.15;
-  color: $textredcolor;
+  color: #d41443;
   @media screen and (min-width: 768px) {
-    margin-bottom: 170px;
+    margin-bottom: 200px;
   }
   @media screen and (min-width: 1280px) {
     padding-top: 0px;
@@ -39,6 +41,7 @@
     display: flex;
     flex-wrap: wrap;
     margin-right: -20px;
+    margin-bottom: -160px;
   }
   @media screen and (min-width: 1280px) {
     margin-right: -10px;
@@ -47,12 +50,12 @@
 .products__item {
   display: block;
   padding: 146px 0 41px;
-  margin-bottom: 230px;
+  margin-bottom: 160px;
   max-width: 350px;
-  height: auto;
+  height: 485px;
   position: relative;
   border-radius: 24px;
-  background-color: $productsLi1color;
+  background-color: #ffb8ca;
   @media screen and (min-width: 768px) {
     width: 220px;
     margin-right: 20px;
@@ -63,65 +66,50 @@
   }
 }
 .first {
-  background-color: $productsLi1color;
+  background-color: #ffb8ca;
 }
 .second {
-  background-color: $productsLi2color;
+  background-color: #f0d1a5;
 }
 .third {
-  background-color: $productsLi3color;
+  background-color: #c2e297;
 }
 .first::before {
   content: '';
   position: absolute;
-  left: 0;
-  top: -50%;
-  width: 249px;
+  left: -12%;
+  top: -30%;
+  width: 100%;
   transform: translate(12%, 0);
+  background-position: center;
   height: 252px;
   background-image: url('../images/productsmobilka1@1x.png');
   background-repeat: no-repeat;
-  background-size: 100%;
-  @media screen and (min-width: 768px) {
-    transform: translate(-5%, 0);
-  }
-  @media screen and (min-width: 1280px) {
-    transform: translate(12%, 0);
-  }
+  background-position: center;
 }
 .second::before {
   content: '';
   position: absolute;
-  left: auto;
-  top: -50%;
+  left: -12%;
+  top: -30%;
   width: 100%;
   transform: translate(12%, 0);
+  background-position: center;
   height: 252px;
   background-image: url('../images/productsmobilka2@1x.png');
   background-repeat: no-repeat;
-  @media screen and (min-width: 768px) {
-    transform: translate(-5%, 0);
-  }
-  @media screen and (min-width: 1280px) {
-    transform: translate(12%, 0);
-  }
 }
 .third::before {
   content: '';
   position: absolute;
-  left: auto;
-  top: -50%;
+  left: -12%;
+  top: -30%;
   width: 100%;
   transform: translate(12%, 0);
+  background-position: center;
   height: 252px;
   background-image: url('../images/productsmobilka3@1x.png');
   background-repeat: no-repeat;
-  @media screen and (min-width: 768px) {
-    transform: translate(-5%, 0);
-  }
-  @media screen and (min-width: 1280px) {
-    transform: translate(12%, 0);
-  }
 }
 .products__name {
   position: relative;
@@ -131,24 +119,40 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 1.15;
-  color: $textWhitecolor;
-  margin-bottom: 32px;
+  color: #ffffff;
+  margin-bottom: 30px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 32px;
+  }
 }
 .products__text {
   padding: 0 30px;
   text-align: center;
   font-family: DM Sans, sans-serif;
+  color: #ffffff;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.52;
+  margin-top: 50px;
 }
 .products__name::before {
   content: '';
   position: absolute;
-  left: 50%;
   top: 200%;
-  width: 6px;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, 0);
+  background-position: center;
+  width: 26px;
   height: 6px;
-  border-radius: 50%;
-  background-color: $textWhitecolor;
+  background-image: url('../images/productsgroup.png');
+}
+.products__name::after {
+  content: '';
+  position: absolute;
+  left: 40%;
+  top: 800%;
+  width: 40px;
+  height: 40px;
+  background-image: url('../images/arrowright.svg');
 }
