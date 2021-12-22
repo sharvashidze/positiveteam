@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./../images/productsmobilka1@1x.png":[["productsmobilka1@1x.5660827e.png","NU1g"],"NU1g"],"./../images/productsmobilka2@1x.png":[["productsmobilka2@1x.d1ba565d.png","BR1D"],"BR1D"],"./../images/productsmobilka3@1x.png":[["productsmobilka3@1x.b4c81675.png","SYQy"],"SYQy"],"./../images/advantages_icon1.png":[["advantages_icon1.e40153a1.png","oQHJ"],"oQHJ"],"./../images/advantages_icon2.png":[["advantages_icon2.348e9fa6.png","FE8t"],"FE8t"],"./../images/advantages_icon3.png":[["advantages_icon3.1c2573ad.png","TQ3c"],"TQ3c"]}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");
 },{"./sass/main.scss":"clu1"}]},{},["Focm"], null)
-//# sourceMappingURL=/positiveteam/src.7fffe162.js.map
+//# sourceMappingURL=/positiveteam/src.f3e5ca19.js.map
