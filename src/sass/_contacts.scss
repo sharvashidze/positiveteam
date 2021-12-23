@@ -2,7 +2,6 @@
   position: relative;
   background-color: $backgroundcontactscolor;
   width: auto;
-
   padding: 0 44px 113px 56px;
 
   @media screen and (min-width: 768px) {
@@ -11,6 +10,9 @@
 
   @media screen and (min-width: 1280px) {
     padding: 0 115px 165px 115px;
+    background-image: url('../images/sectioncontactsklayks.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
   }
 }
 
@@ -104,19 +106,33 @@
   }
 }
 
-.article-dop {
-  position: absolute;
-  top: -84px;
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .conteiner-dop {
+    position: absolute;
+    top: -78px;
+  }
+
+  .article-dop__dop {
+    margin-top: 363px;
+  }
 }
 
-.article-dop__dop {
-  margin-top: 363px;
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .article-dop {
+    position: absolute;
+    top: -84px;
+  }
+
+  //   .article-dop__dop {
+  //     margin-top: 363px;
+  //   }
 }
 
 .article-section__site {
   display: flex;
   flex-direction: column;
   width: 220px;
+  height: 427px;
   box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   border-radius: 24px;
   margin-bottom: 20px;
@@ -126,10 +142,13 @@
   @media screen and (min-width: 768px) {
     margin-right: 20px;
     margin-bottom: 81px;
+    height: 544px;
+    padding: 50px 31px;
   }
 
   @media screen and (min-width: 1280px) {
     width: 330px;
+    height: 572px;
     margin-right: 31px;
     margin-bottom: 86px;
     padding: 51px 44px 62px 44px;
@@ -223,6 +242,7 @@
 .article-section__list--locations {
   margin-bottom: 10px;
   @media screen and (min-width: 768px) {
+    width: 191px;
     margin: 0 15px 0 0;
   }
 
@@ -232,6 +252,10 @@
 }
 
 .article-section__list--franchise {
+  @media screen and (min-width: 768px) {
+    width: 174px;
+  }
+
   @media screen and (min-width: 1280px) {
     width: 180px;
   }
@@ -240,19 +264,13 @@
 .article-section__list--locations {
   background-color: $textredcolor;
   color: $textWhitecolor;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .article-section__list--franchise {
   background-color: $textWhitecolor;
   color: $textredcolor;
-}
-
-.article-section__svg--element {
-  fill: #ffffff;
-}
-
-.article-section__svg {
-  fill: #ffffff;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .article-section__list--locations:hover,
@@ -261,6 +279,16 @@
 .article-section__list--franchise:hover {
   background-color: #ecebeb;
   color: $textredcolor;
+}
+
+// .article-section__svg:hover,
+// .article-section__svg:focus {
+//   fill: $textredcolor;
+// }
+
+.article-section__svg--element:hover,
+.article-section__svg--element:focus {
+  fill: $textredcolor;
 }
 
 .article-section__svg {
