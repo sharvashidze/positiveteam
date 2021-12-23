@@ -89,13 +89,19 @@
   line-height: 2.55;
   text-align: center;
   color: $textblackcolor;
-  background-color: #fafafa;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    #e1e1e1 15px,
+    transparent,
+    22px,
+    rgb(250 250 250 / 40%) 45px
+  );
   z-index: 10;
 
   @media screen and (min-width: 480px) {
     width: 350px;
     margin-bottom: 35px;
-    padding: 40px 60px 25px 60px;
+    padding: 50px 60px 25px 60px;
     font-size: 13px;
     line-height: 2.25;
   }
@@ -106,7 +112,6 @@
     padding: 47px 80px 34px 80px;
     font-size: 14px;
     line-height: 2.16;
-    background-color: rgba(250, 250, 250, 0.4);
   }
 
   @media screen and (min-width: 1280px) {
@@ -116,7 +121,6 @@
     font-size: 16px;
     line-height: 1.86;
     letter-spacing: 0.04em;
-    background-color: #fafafa;
   }
 }
 
