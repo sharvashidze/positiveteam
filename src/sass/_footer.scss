@@ -2,6 +2,11 @@
   padding: 0;
   background-color: #fff5f6;
 }
+@media screen and (min-width: 768px) and(max-width:1279px) {
+  .page-footer--padding {
+    padding-top: 547px;
+  }
+}
 .page-footer__wrapper {
   padding-bottom: 43px;
 

@@ -106,26 +106,22 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .conteiner-dop {
     position: absolute;
     top: -78px;
   }
-
-  .article-dop__dop {
-    margin-top: 363px;
-  }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1279px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .article-dop {
     position: absolute;
     top: -84px;
   }
 
-  //   .article-dop__dop {
-  //     margin-top: 363px;
-  //   }
+  .article-dop__dop {
+    margin-top: 363px;
+  }
 }
 
 .article-section__site {
