@@ -2,7 +2,7 @@
   <div class="container header__container">
     <nav class="header__nav">
       <a href="/" class="header__logo">
-        <img src="./images/logo3.png" alt="logo">
+        <img src="./images/logo3.png" alt="logo" />
       </a>
       <ul class="header-menu">
         <li class="header-menu__item">
@@ -26,31 +26,51 @@
         </li>
       </ul>
     </nav>
-    <button type="button" class="mobile-menu js-open-menu" aria-label="Переключатель мобильного меню"
-      aria-expanded="false" aria-controls="mobile-menu">
+    <button
+      type="button"
+      class="mobile-menu js-open-Btn"
+      aria-label="Переключатель мобильного меню"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
       <svg class="mobile-menu__icon" width="20px" height="12px">
         <use href="./images/symbol-defs.svg#icontelmenu"></use>
       </svg>
     </button>
-    <button type="button" class="header__button button">Buy now
+    <button type="button" class="header__button button">
+      Buy now
       <svg class="header__button--svg">
         <use class="header__button--icon" href="./images/symbol-defs.svg#icon-about"></use>
       </svg>
     </button>
   </div>
 </header>
-<div class="menu-container js-menu-container" id="mobile-menu">
+<div class="menu-container js-container-mobile" id="mobile-menu">
   <div class="button-container">
-    <button type="button" class="mobile-menu js-close-menu" aria-label="Переключатель мобильного меню">
-      <svg class="mobile-menu__icon--close" width="20px" height="20px">
-        <use class="mobile-menu__icon--close" href="./images/symbol-defs.svg#iconmenuX" width="14px" height="14px">
-        </use>
+    <button
+      type="button"
+      class="mobile-menu2 js-close-Btn"
+      aria-label="Переключатель мобильного меню"
+    >
+      <svg class="mobile-menu__icon--close" width="14" height="14">
+        <use
+          class="mobile-menu__icon--close"
+          href="./images/symbol-defs.svg#iconmenuX"
+          width="14px"
+          height="14px"
+        ></use>
       </svg>
     </button>
   </div>
+  <button class="mobile-btn">
+    Buy now
+    <svg width="14" height="14">
+      <use href="./images/symbol-defs.svg#icon-about"></use>
+    </svg>
+  </button>
   <ul class="gamburger-menu">
     <li class="gamburger-menu__item">
-      <a class="gamburger-menu__link" href="/">Home</a>
+      <a class="gamburger-menu__link gamburger-menu__link--color" href="/">Home</a>
     </li>
     <li class="gamburger-menu__item">
       <a class="gamburger-menu__link" href="/">About us</a>
