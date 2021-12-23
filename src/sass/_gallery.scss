@@ -19,11 +19,6 @@
 }
 
 .gallery-section__pics {
-  // @media screen and (max-width: 767px) {
-  //   margin-left: auto;
-  //   margin-right: auto;
-  // }
-
   @media screen and (min-width: 768px) {
     margin-left: 137px;
     margin-right: 137px;
@@ -65,16 +60,5 @@
   &:hover {
     transform: scale(1.5);
     transition-duration: 1500ms;
-  }
-
-  @media screen and (max-width: 767px) {
-    width: 80px;
-
-    margin-left: auto;
-    margin-right: auto;
-
-    &:hover {
-      transition-timing-function: cubic-bezier(0.29, 1.01, 1, -0.68);
-    }
   }
 }
