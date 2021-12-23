@@ -520,7 +520,7 @@ img {
   transform: translate(12%, 0);
   background-position: center;
   height: 252px;
-  background-image: url("../images/productsmobilka1@1x.png");
+  background-image: url('../images/productsmobilka1@1x.png');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -534,7 +534,7 @@ img {
   transform: translate(12%, 0);
   background-position: center;
   height: 252px;
-  background-image: url("../images/productsmobilka2@1x.png");
+  background-image: url('../images/productsmobilka2@1x.png');
   background-repeat: no-repeat;
 }
 
@@ -547,7 +547,7 @@ img {
   transform: translate(12%, 0);
   background-position: center;
   height: 252px;
-  background-image: url("../images/productsmobilka3@1x.png");
+  background-image: url('../images/productsmobilka3@1x.png');
   background-repeat: no-repeat;
 }
 
@@ -590,7 +590,7 @@ img {
   background-position: center;
   width: 26px;
   height: 6px;
-  background-image: url("../images/productsgroup.png");
+  background-image: url('../images/productsgroup.png');
 }
 
 /* .products__name::after {
@@ -606,7 +606,7 @@ img {
   background-color: #fff5f6;
   padding-top: 125px;
   padding-bottom: 39px;
-  background-image: url("../images/backgrkarovamobile@1x.png");
+  background-image: url('../images/backgrkarovamobile@1x.png');
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position-y: 90%;
@@ -621,19 +621,21 @@ img {
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .about {
-    background-image: url("../images/backgrkarovamobile@2x.png");
+    background-image: url('../images/backgrkarovamobile@2x.png');
   }
 }
 
 @media screen and (min-width: 1280px) {
   .about {
-    background-image: url("../images/backgrkarova@1x.png");
+    background-image: url('../images/backgrkarova@1x.png');
   }
 }
 
-@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (min-resolution: 192dpi), screen and (min-width: 1280px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2),
+  screen and (min-width: 1280px) and (min-resolution: 192dpi),
+  screen and (min-width: 1280px) and (min-resolution: 2dppx) {
   .about {
-    background-image: url("../images/backgrkarova@2x.png");
+    background-image: url('../images/backgrkarova@2x.png');
   }
 }
 
@@ -828,7 +830,8 @@ img {
   }
 }
 
-.about__bt:hover, .about__bt:focus {
+.about__bt:hover,
+.about__bt:focus {
   background-color: #ecebeb;
 }
 
@@ -1126,7 +1129,8 @@ img {
   border-radius: 20px;
   margin-bottom: 6px;
   overflow: hidden;
-  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 .gallery-section__item:hover {
@@ -1215,7 +1219,7 @@ img {
 .swiper-pagination-bullet-active {
   width: 13px;
   height: 12px;
-  background-image: url("../images/home-dot.svg");
+  background-image: url('../images/home-dot.svg');
   background-size: cover;
   border-radius: unset;
   background-position: center;
@@ -1280,7 +1284,7 @@ img {
   position: absolute;
   top: 25px;
   left: 63px;
-  background-image: url("../images/quotes.svg");
+  background-image: url('../images/quotes.svg');
   width: 54px;
   height: 40px;
   z-index: -1;
@@ -1324,7 +1328,7 @@ img {
   left: 40%;
   width: 32px;
   height: 4px;
-  background-image: url("../images/red-dots.svg");
+  background-image: url('../images/red-dots.svg');
   background-size: contain;
   background-repeat: no-repeat;
   fill: #c7133e;
@@ -1346,7 +1350,7 @@ img {
 @media screen and (min-width: 1280px) {
   .article-section {
     padding: 0 115px 165px 115px;
-    background-image: url("../images/sectioncontactsklayks.png");
+    background-image: url('../images/sectioncontactsklayks.png');
     background-repeat: no-repeat;
     background-size: 100% auto;
   }
