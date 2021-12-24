@@ -1,5 +1,5 @@
 .header {
-  position: relative;
+  position: absolute;
   z-index: 99;
   width: 100%;
   padding-top: 6px;
@@ -63,7 +63,7 @@
   }
 
   @media screen and (min-width: 768px) {
-    margin-left: 291px;
+    margin-left: auto;
   }
 
   @media screen and (min-width: 1280px) {
@@ -89,8 +89,10 @@
   }
 
   @media screen and (min-width: 768px) {
-    display: block;
-    margin-left: auto;
+    display: flex;
+    margin-left: 30px;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -98,7 +100,7 @@
   width: 20px;
   height: 20px;
   fill: $textredcolor;
-
+  margin-left: 14px;
   &--icon {
     fill: $textredcolor;
   }
@@ -115,13 +117,13 @@
 
   overflow: hidden;
 
-  @media screen and (min-width: 320px) {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     padding-top: 193px;
     padding-bottom: 160px;
   }
   @media screen and (min-width: 768px) {
     padding-top: 102px;
-    padding-bottom: 34px;
+    padding-bottom: 28px;
   }
   @media screen and (min-width: 1280px) {
     padding-top: 171px;
@@ -151,6 +153,7 @@
   @media screen and (min-width: 768px) {
     width: 162px;
     font-size: 22px;
+    margin-top: 15px;
   }
   @media screen and (min-width: 1280px) {
     margin-bottom: 25px;
@@ -216,10 +219,40 @@
     display: none;
   }
   @media screen and (min-width: 768px) {
-    display: block;
+    display: flex;
+    align-items: center;
   }
 }
 
+.Hero__imga {
+  @media screen and (min-width: 768px) {
+    margin-top: 19px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero__description--arrow {
+    margin-top: 66px;
+  }
+  .hero__description--text {
+    width: 114px;
+    font-size: 8px;
+    line-height: 1.5;
+    color: $textWhitecolor;
+  }
+  .hero__description--svg {
+    width: 18px;
+    height: 18px;
+    margin-top: 7px;
+    border-radius: 50%;
+    background: $textWhitecolor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    fill: #d41443;
+  }
+}
 .circle {
   position: absolute;
 
@@ -237,8 +270,8 @@
   @media screen and (min-width: 768px) {
     top: 31px;
     left: 307px;
-    width: 324px;
-    height: 322px;
+    // width: 324px;
+    // height: 322px;
   }
   @media screen and (min-width: 1280px) {
     top: 52px;
@@ -256,21 +289,81 @@
   @media screen and (min-width: 320px) {
     left: 117px;
     width: 171px;
-    height: 410px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
+    width: 143px;
+    left: 378px;
   }
 }
 
 .grafin {
   display: none;
 }
-
-.girl {
-  display: none;
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .object {
+    display: none;
+  }
+  .object__ellipse {
+    display: none;
+  }
+  .object__number {
+    display: none;
+  }
+  .object__descript {
+    display: none;
+  }
+  .object__number--second {
+    display: none;
+  }
+  .girl {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .object {
+    position: absolute;
+    top: 94px;
+    right: 30px;
+  }
+  .object__ellipse {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: $textWhitecolor;
+    left: 35px;
+  }
+  .object__number {
+    position: relative;
+    font-family: Titan One;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: right;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #d41443;
+  }
+  .object__descript {
+    font-family: DM Sans;
+    font-size: 8px;
+    line-height: 10px;
+    text-align: right;
+    color: $textWhitecolor;
+  }
+  .object__number--second {
+    margin-top: 19px;
+    z-index: 1;
+  }
+  .object__ellipse--top {
+    top: 60px;
+  }
+  .girl {
+    position: absolute;
+    right: 34px;
+    top: 292px;
+  }
 }
 
-.object {
-  display: none;
-}
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .mobile-menu2 {
     position: absolute;
