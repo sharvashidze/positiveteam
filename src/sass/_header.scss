@@ -76,7 +76,7 @@
   height: 44px;
   border: none;
   border-radius: 22px;
-
+  cursor: pointer;
   color: $textredcolor;
   font-weight: 600;
   font-size: 16px;
@@ -93,6 +93,9 @@
     margin-left: 30px;
     justify-content: center;
     align-items: center;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-left: auto;
   }
 }
 
@@ -127,7 +130,7 @@
   }
   @media screen and (min-width: 1280px) {
     padding-top: 171px;
-    padding-bottom: 56px;
+    padding-bottom: 45px;
   }
 }
 
@@ -159,6 +162,7 @@
     margin-bottom: 25px;
     width: 277px;
     font-size: 38px;
+    left: 95px;
   }
 
   &--span {
@@ -198,6 +202,7 @@
     width: 102px;
     height: 40px;
     font-size: 14px;
+    left: 95px;
   }
 
   &--white {
@@ -228,6 +233,11 @@
   @media screen and (min-width: 768px) {
     margin-top: 19px;
   }
+  @media screen and (min-width: 1280px) {
+    margin-top: 56px;
+    width: 188px;
+    margin-right: 30px;
+  }
 }
 @media screen and (min-width: 768px) {
   .hero__description--arrow {
@@ -243,6 +253,30 @@
     width: 18px;
     height: 18px;
     margin-top: 7px;
+    border-radius: 50%;
+    background: $textWhitecolor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    fill: #d41443;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hero__description--arrow {
+    margin-top: 112px;
+  }
+  .hero__description--text {
+    width: 200px;
+    font-size: 14px;
+    line-height: 1.42;
+    color: $textWhitecolor;
+  }
+  .hero__description--svg {
+    width: 26px;
+    height: 26px;
+    margin-top: 20px;
     border-radius: 50%;
     background: $textWhitecolor;
     display: flex;
@@ -293,6 +327,10 @@
   @media screen and (min-width: 768px) and (max-width: 1279px) {
     width: 143px;
     left: 378px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 236px;
+    left: 594px;
   }
 }
 
@@ -361,6 +399,45 @@
     position: absolute;
     right: 34px;
     top: 292px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .object {
+    margin-top: 74px;
+  }
+  .object__number {
+    position: relative;
+    font-family: Titan One;
+    font-size: 46px;
+    line-height: 53px;
+    text-align: right;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #d41443;
+  }
+  .object__descript {
+    font-family: DM Sans;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    color: $textWhitecolor;
+  }
+  .object__ellipse {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: $textWhitecolor;
+    left: 60px;
+  }
+  .object__ellipse--top {
+    top: 88px;
+  }
+  .girl {
+    position: absolute;
+    right: 109px;
+    top: 473px;
+    width: 293px;
   }
 }
 
