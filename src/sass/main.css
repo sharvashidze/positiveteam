@@ -730,6 +730,10 @@ img {
   }
 }
 
+#products {
+  scroll-behavior: smooth;
+}
+
 .products {
   padding-top: 550px;
   padding-bottom: 98px;
