@@ -1,17 +1,17 @@
 .page-footer {
-  padding: 0;
+  padding-top: 113px;
   background-color: $backgroundcontactscolor;
 }
 
 @media screen and (min-width: 768px) and(max-width:1279px) {
   .page-footer--padding {
-    padding-top: 547px;
+    padding-top: 165px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .page-footer--padding {
-    padding-top: 556px;
+    padding-top: 165px;
   }
 }
 

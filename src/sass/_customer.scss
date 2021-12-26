@@ -1,10 +1,12 @@
 .customer {
   position: relative;
   padding-top: 80px;
+  // padding-top: 80px;
+  // padding-bottom: 86px;
   padding-bottom: 86px;
-
   @media screen and (min-width: 768px) {
-    padding: 121px 54px 119px 54px;
+    padding-top: 121px;
+    padding-bottom: 119px;
   }
 
   @media screen and (min-width: 1280px) {
@@ -47,11 +49,11 @@
   }
 
   @media screen and (min-width: 768px) {
-    margin-bottom: 19px;
+    margin-bottom: 66px;
   }
 
   @media screen and (min-width: 1280px) {
-    margin-bottom: 15px;
+    margin-bottom: 62px;
   }
 }
 
