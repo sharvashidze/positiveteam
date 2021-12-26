@@ -322,6 +322,9 @@
 .btn-info-third {
   position: absolute;
   z-index: 997;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   bottom: 12%;
   left: 43%;
   width: 40px;
