@@ -1,142 +1,153 @@
-<header class="header">
-  <div class="container header__container">
-    <nav class="header__nav">
-      <a href="/" class="header__logo">
-        <img src="./images/logo3.png" alt="logo" />
-      </a>
-      <ul class="header-menu">
-        <li class="header-menu__item">
-          <a class="header-menu__link current-link" href="/">Home</a>
-        </li>
+<section class="section-header">
+  <header class="header">
+    <div class="container header__container">
+      <nav class="header__nav">
+        <a href="/" class="header__logo">
+          <img src="./images/logo3.png" alt="logo" />
+        </a>
+        <ul class="header-menu">
+          <li class="header-menu__item">
+            <a class="header-menu__link current-link" href="/">Home</a>
+          </li>
 
-        <li class="header-menu__item">
-          <a class="header-menu__link" href="#about">About us</a>
-        </li>
+          <li class="header-menu__item">
+            <a class="header-menu__link" href="#about">About us</a>
+          </li>
 
-        <li class="header-menu__item">
-          <a class="header-menu__link" href="#how">How it’s made?</a>
-        </li>
+          <li class="header-menu__item">
+            <a class="header-menu__link" href="#how">How it’s made?</a>
+          </li>
 
-        <li class="header-menu__item">
-          <a class="header-menu__link" href="#products">Our products</a>
-        </li>
+          <li class="header-menu__item">
+            <a class="header-menu__link" href="#products">Our products</a>
+          </li>
 
-        <li class="header-menu__item">
-          <a class="header-menu__link" href="#contacts">Contact</a>
-        </li>
-      </ul>
-    </nav>
-    <button
-      type="button"
-      class="mobile-menu js-open-Btn"
-      aria-label="Переключатель мобильного меню"
-      aria-expanded="false"
-      aria-controls="mobile-menu"
-    >
-      <svg class="mobile-menu__icon" width="20px" height="12px">
-        <use href="./images/symbol-defs.svg#icontelmenu"></use>
-      </svg>
-    </button>
-    <button type="button" class="header__button button">
+          <li class="header-menu__item">
+            <a class="header-menu__link" href="#contacts">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <button
+        type="button"
+        class="mobile-menu js-open-Btn"
+        aria-label="Переключатель мобильного меню"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg class="mobile-menu__icon" width="20px" height="12px">
+          <use href="./images/symbol-defs.svg#icontelmenu"></use>
+        </svg>
+      </button>
+      <button type="button" class="header__button button">
+        Buy now
+        <svg class="header__button--svg">
+          <use class="header__button--icon" href="./images/symbol-defs.svg#icon-about"></use>
+        </svg>
+      </button>
+    </div>
+  </header>
+  <div class="menu-container js-container-mobile" id="mobile-menu">
+    <div class="button-container">
+      <button
+        type="button"
+        class="mobile-menu2 js-close-Btn"
+        aria-label="Переключатель мобильного меню"
+      >
+        <svg class="mobile-menu__icon--close" width="14" height="14">
+          <use
+            class="mobile-menu__icon--close"
+            href="./images/symbol-defs.svg#iconmenuX"
+            width="14px"
+            height="14px"
+          ></use>
+        </svg>
+      </button>
+    </div>
+    <button class="mobile-btn">
       Buy now
-      <svg class="header__button--svg">
-        <use class="header__button--icon" href="./images/symbol-defs.svg#icon-about"></use>
+      <svg width="14" height="14">
+        <use href="./images/symbol-defs.svg#icon-about"></use>
       </svg>
     </button>
+    <ul class="gamburger-menu">
+      <li class="gamburger-menu__item">
+        <a class="gamburger-menu__link gamburger-menu__link--color" href="/">Home</a>
+      </li>
+      <li class="gamburger-menu__item">
+        <a class="gamburger-menu__link" href="#about">About us</a>
+      </li>
+      <li class="gamburger-menu__item">
+        <a class="gamburger-menu__link" href="#how">How it’s made?</a>
+      </li>
+      <li class="gamburger-menu__item">
+        <a class="gamburger-menu__link" href="#products">Our products</a>
+      </li>
+      <li class="gamburger-menu__item">
+        <a class="gamburger-menu__link" href="#contacts">Contact</a>
+      </li>
+    </ul>
   </div>
-</header>
-<div class="menu-container js-container-mobile" id="mobile-menu">
-  <div class="button-container">
-    <button
-      type="button"
-      class="mobile-menu2 js-close-Btn"
-      aria-label="Переключатель мобильного меню"
-    >
-      <svg class="mobile-menu__icon--close" width="14" height="14">
-        <use
-          class="mobile-menu__icon--close"
-          href="./images/symbol-defs.svg#iconmenuX"
-          width="14px"
-          height="14px"
-        ></use>
-      </svg>
-    </button>
-  </div>
-  <button class="mobile-btn">
-    Buy now
-    <svg width="14" height="14">
-      <use href="./images/symbol-defs.svg#icon-about"></use>
-    </svg>
-  </button>
-  <ul class="gamburger-menu">
-    <li class="gamburger-menu__item">
-      <a class="gamburger-menu__link gamburger-menu__link--color" href="/">Home</a>
-    </li>
-    <li class="gamburger-menu__item">
-      <a class="gamburger-menu__link" href="#about">About us</a>
-    </li>
-    <li class="gamburger-menu__item">
-      <a class="gamburger-menu__link" href="#how">How it’s made?</a>
-    </li>
-    <li class="gamburger-menu__item">
-      <a class="gamburger-menu__link" href="#products">Our products</a>
-    </li>
-    <li class="gamburger-menu__item">
-      <a class="gamburger-menu__link" href="#contacts">Contact</a>
-    </li>
-  </ul>
-</div>
-<section class="hero">
-  <div class="container">
-    <h1 class="hero__title">
-      ice cream made with
-      <span class="hero__title--span">passion</span>
-    </h1>
-    <a class="hero__link" href="#products">Products</a>
-    <a class="hero__link hero__link--white" href="#how">How it’s made?</a>
-    <div class="hero__description">
-      <img class="Hero__imga" src="./images/grafinplanshet@1x.png" alt="графин с молоком" />
-      <div class="hero__description--arrow">
-        <p class="hero__description--text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-          ut labore et
-        </p>
-        <button class="hero__description--svg">
-          <svg width="18" height="18">
-            <use
-              class="hero__description--icon"
-              href="./images/arrowright.svg#icon-arrow-right"
-            ></use>
-          </svg>
-        </button>
+  <section class="hero">
+    <div class="container">
+      <h1 class="hero__title">
+        ice cream made with
+        <span class="hero__title--span">passion</span>
+      </h1>
+      <a class="hero__link" href="#products">Products</a>
+      <a class="hero__link hero__link--white" href="#how">How it’s made?</a>
+      <div class="hero__description">
+        <img class="Hero__imga" src="./images/grafinplanshet@1x.png" alt="графин с молоком" />
+        <div class="hero__description--arrow">
+          <p class="hero__description--text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et
+          </p>
+          <button class="hero__description--svg">
+            <svg width="18" height="18">
+              <use
+                class="hero__description--icon"
+                href="./images/arrowright.svg#icon-arrow-right"
+              ></use>
+            </svg>
+          </button>
+        </div>
       </div>
-    </div>
-    <div class="circle"></div>
-    <img
-      class="ice-cream"
-      srcset="./images/photoheromobilka1x.png 1x, ./images/photoheroplanshet1x.png 1x"
-      src="./images/photoheromobilka1x.png"
-      alt=""
-    />
-    <img class="grafin" src="./images/grafindecstop@1x.png" alt="" />
-    <img
-      class="girl"
-      srcset="./images/girldecstop@1x.png 1x"
-      src="./images/girlplanshet@1x.png"
-      alt=""
-    />
-    <div class="object">
-      <div class="object__first">
-        <div class="object__ellipse"></div>
-        <p class="object__number">16</p>
-        <p class="object__descript">cafes</p>
-      </div>
+      <div class="circle1">
+        <div class="circle"></div>
+        <img
+          class="ice-cream"
+          srcset="
+            ./images/photoheromobilka1x.png  1x,
+            ./images/photoheromobilka@2x.png 2x,
+            ./images/photoheroplanshet1x.png 1x,
+            ./images/photoherodekstop1x.png  1x,
+            ./images/photoherodekstop@2x.png 2x
+          "
+          src="./images/photoheromobilka1x.png"
+          alt=""
+        />
+        <img class="grafin" src="./images/grafindecstop@1x.png" alt="" />
+        <img
+          class="girl"
+          srcset="./images/girldecstop@1x.png 1x"
+          src="./images/girlplanshet@1x.png"
+          alt=""
+        />
 
-      <div class="object__second">
-        <p class="object__number object__number--second">23</p>
-        <p class="object__descript">food trucks</p>
-        <div class="object__ellipse object__ellipse--top"></div>
+        <div class="object">
+          <div class="object__first">
+            <div class="object__ellipse"></div>
+            <p class="object__number">16</p>
+            <p class="object__descript">cafes</p>
+          </div>
+
+          <div class="object__second">
+            <p class="object__number object__number--second">23</p>
+            <p class="object__descript">food trucks</p>
+            <div class="object__ellipse object__ellipse--top"></div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
 </section>

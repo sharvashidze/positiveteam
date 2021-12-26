@@ -1,8 +1,8 @@
 .advantages {
   background-color: rgba(255, 245, 246, 1);
-  padding-bottom: 97px;
+  padding-bottom: 145px;
   @media screen and (min-width: 768px) {
-    padding-bottom: 140px;
+    padding-bottom: 246px;
   }
 }
 .advantages-title {
@@ -26,7 +26,9 @@
 }
 .advantages-item {
   @media screen and (max-width: 768px) {
-    margin-bottom: 38px;
+    &:not(:last-child) {
+      margin-bottom: 38px;
+    }
   }
 }
 .advantages-subtitle__primary,
