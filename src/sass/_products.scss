@@ -163,6 +163,7 @@
     width: 100%;
     transform: translate(12%, 0);
     background-position: center;
+    background-size: contain;
     height: 226px;
     background-image: url('../images/productsmobilka1@1x.png');
     background-repeat: no-repeat;
@@ -180,6 +181,7 @@
     background-image: url('../images/productsmobilka2@1x.png');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
   }
   .third::before {
     content: '';
@@ -192,6 +194,7 @@
     height: 226px;
     background-image: url('../images/productsmobilka3@1x.png');
     background-repeat: no-repeat;
+    background-size: contain;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -273,7 +276,7 @@
 //   background-repeat: no-repeat;
 // }
 .products__name {
-  // position: relative;
+  position: relative;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.04em;
