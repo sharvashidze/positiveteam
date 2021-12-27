@@ -321,7 +321,7 @@
 .btn-info-second,
 .btn-info-third {
   position: absolute;
-  z-index: 997;
+  z-index: 3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -345,7 +345,7 @@
   @media screen and (min-width: 768px) {
     right: 40%;
     bottom: 7%;
-    z-index: 0;
+    opacity: 1;
   }
 
   @media screen and (min-width: 1280px) {
