@@ -38,12 +38,67 @@
           <use href="./images/symbol-defs.svg#icontelmenu"></use>
         </svg>
       </button>
-      <button type="button" class="header__button button">
+      <button type="button" class="header__button button" data-modal-open>
         Buy now
         <svg class="header__button--svg">
           <use class="header__button--icon" href="./images/symbol-defs.svg#icon-about"></use>
         </svg>
       </button>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <button class="modal__button" data-modal-close>
+            <svg width="18" height="18" class="modal__icon">
+              <use href="./images/symboldefs.svg#icon-close-black"></use>
+            </svg>
+          </button>
+          <!--✌️MODAL FORM Страницы🤞-->
+          <form class="form">
+            <p class="form__title">Оставьте свои данные, мы вам перезвоним</p>
+            <div class="form__group">
+              <label for="use-name" class="form__label">Имя</label>
+              <input type="text" name="use-name" id="use-name" class="form__input" />
+              <svg width="18" height="18" class="form__icon">
+                <use href="./images/symboldefs.svg#icon-person-black"></use>
+              </svg>
+            </div>
+            <div class="form__group">
+              <label for="telephone" class="form__label">Телефон</label>
+              <input type="tel" name="telephone" id="telephone" class="form__input" />
+              <svg width="18" height="18" class="form__icon">
+                <use href="./images/symboldefs.svg#icon-phone-black"></use>
+              </svg>
+            </div>
+            <div class="form__group">
+              <label for="use-email" class="form__label">Почта</label>
+              <input type="email" name="use-email" id="use-email" class="form__input" />
+              <svg width="18" height="18" class="form__icon">
+                <use href="./images/symboldefs.svg#icon-email-black"></use>
+              </svg>
+            </div>
+            <div class="form__textarea">
+              <label for="coments" class="form__label">Комментарий</label>
+              <textarea
+                name="coments"
+                id="coments"
+                rows="10"
+                class="form__text"
+                placeholder="Введите текст"
+              ></textarea>
+            </div>
+            <div class="form__check-box">
+              <label class="form__text-egree">
+                <input type="checkbox" name="agree" class="form__chekbox" />
+                <span class="form__icon-block"></span>
+                <span>
+                  Соглашаюсь с рассылкой и принимаю
+                  <a href="" class="form__link">Условия договора</a>
+                </span>
+              </label>
+            </div>
+            <button type="submit" class="form__button">Отправить</button>
+          </form>
+        </div>
+      </div>
     </div>
   </header>
   <div class="menu-container js-container-mobile" id="mobile-menu">
@@ -56,7 +111,7 @@
         <svg class="mobile-menu__icon--close" width="14" height="14">
           <use
             class="mobile-menu__icon--close"
-            href="./images/symbol-defs.svg#iconmenuX"
+            href="./images/symboldefs.svg#iconmenuX"
             width="14px"
             height="14px"
           ></use>
