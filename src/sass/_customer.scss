@@ -1,8 +1,6 @@
 .customer {
   position: relative;
   padding-top: 80px;
-  // padding-top: 80px;
-  // padding-bottom: 86px;
   padding-bottom: 86px;
   @media screen and (min-width: 768px) {
     padding-top: 121px;
@@ -10,7 +8,8 @@
   }
 
   @media screen and (min-width: 1280px) {
-    padding: 123px 157px 132px 157px;
+    padding-top: 123px;
+    padding-bottom: 132px;
   }
 }
 
