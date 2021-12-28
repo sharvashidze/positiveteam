@@ -13,7 +13,7 @@ $bg-backdrop: rgba(233, 109, 121, 0.5);
   padding-top: 125px;
   padding-bottom: 39px;
 
-  @media screen and (min-width: 768px) and (max-width: 1279px) {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     padding-top: 130px;
     padding-bottom: 66px;
   }
@@ -28,7 +28,7 @@ $bg-backdrop: rgba(233, 109, 121, 0.5);
     }
   }
 
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1200px) {
     background-image: url('../images/backgrkarova@1x.png');
     @media (min-device-pixel-ratio: 2),
       (-webkit-min-device-pixel-ratio: 2),
@@ -62,7 +62,7 @@ $bg-backdrop: rgba(233, 109, 121, 0.5);
       margin-bottom: 16px;
     }
 
-    @media screen and (min-width: 1280px) {
+    @media screen and (min-width: 1200px) {
       font-size: 30px;
       line-height: 1.13;
       letter-spacing: 0.04em;
@@ -89,7 +89,7 @@ $bg-backdrop: rgba(233, 109, 121, 0.5);
       margin-bottom: 50px;
     }
 
-    @media screen and (min-width: 1280px) {
+    @media screen and (min-width: 1200px) {
       font-size: 58px;
       line-height: 1.13;
       letter-spacing: 0.06em;
@@ -115,7 +115,7 @@ $bg-backdrop: rgba(233, 109, 121, 0.5);
       margin-left: unset;
     }
 
-    @media screen and (min-width: 1280px) {
+    @media screen and (min-width: 1200px) {
       margin-right: 74px;
     }
   }
@@ -135,7 +135,7 @@ $bg-backdrop: rgba(233, 109, 121, 0.5);
       margin-right: unset;
     }
 
-    @media screen and (min-width: 1280px) {
+    @media screen and (min-width: 1200px) {
       width: 463px;
     }
   }
@@ -153,7 +153,7 @@ $bg-backdrop: rgba(233, 109, 121, 0.5);
       line-height: 1.78;
     }
 
-    @media screen and (min-width: 1280px) {
+    @media screen and (min-width: 1200px) {
       font-size: 16px;
       line-height: 1.75;
       letter-spacing: 0.04em;
@@ -168,7 +168,7 @@ $bg-backdrop: rgba(233, 109, 121, 0.5);
         margin-bottom: 31px;
       }
 
-      @media screen and (min-width: 1280px) {
+      @media screen and (min-width: 1200px) {
         margin-bottom: 35px;
       }
     }
@@ -180,7 +180,7 @@ $bg-backdrop: rgba(233, 109, 121, 0.5);
       @media screen and (min-width: 768px) {
         margin-bottom: 62px;
       }
-      @media screen and (min-width: 1280px) {
+      @media screen and (min-width: 1200px) {
         margin-bottom: 45px;
       }
     }
@@ -275,7 +275,7 @@ $bg-backdrop: rgba(233, 109, 121, 0.5);
       font-size: 24px;
     }
 
-    @media screen and (min-width: 1280px) {
+    @media screen and (min-width: 1200px) {
       font-size: 28px;
     }
   }
