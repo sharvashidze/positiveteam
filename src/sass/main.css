@@ -143,6 +143,7 @@ img {
   fill: #d41443;
   border: none;
   background: none;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 320px) {
@@ -217,9 +218,9 @@ img {
     align-items: center;
     justify-content: center;
     background: transparent;
-    margin-bottom: 23px;
     border: none;
     fill: #fff;
+    cursor: pointer;
   }
   .menu-container {
     position: fixed;
@@ -747,6 +748,11 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+}
+
+.hero__item:hover, .hero__item:focus {
+  background-color: #ffa5ba;
 }
 
 @media screen and (min-width: 320px) {
@@ -774,6 +780,10 @@ img {
 
 .hero__item--white {
   background-color: #ffffff;
+}
+
+.hero__item--white:hover, .hero__item--white:focus {
+  background-color: #ecebeb;
 }
 
 @media screen and (min-width: 320px) {
@@ -2718,12 +2728,6 @@ img {
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .article-section__list--link {
-    padding-bottom: 165px;
-  }
-}
-
 .article-section__item:not(:last-child) {
   margin-bottom: 10px;
 }
@@ -2746,6 +2750,7 @@ img {
   font-size: 16px;
   line-height: 21px;
   border: none;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
@@ -2776,6 +2781,10 @@ img {
   background-color: #d41443;
   color: #ffffff;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.article-section__list--locations:hover, .article-section__list--locations:focus {
+  background-color: #ffa5ba;
 }
 
 .article-section__list--franchise {
@@ -3014,4 +3023,40 @@ img {
   .page-footer__copyright {
     max-width: 140px;
   }
+}
+
+.backdrop2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  opacity: 1;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 94px 15px;
+  overflow-y: scroll;
+}
+
+.backdrop2.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.form2 {
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form2__title2 {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #d41443;
 }
