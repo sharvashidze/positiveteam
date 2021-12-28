@@ -1,0 +1,32 @@
+.backdrop2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  opacity: 1;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 94px 15px;
+  overflow-y: scroll;
+}
+.backdrop2.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.form2 {
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  &__title2 {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $textredcolor;
+  }
+}
