@@ -71,6 +71,9 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  @media screen and(min-width:768px) {
+    z-index: 0;
+  }
   @media screen and (min-width: 1200px) {
     left: 95px;
   }
